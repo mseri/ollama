@@ -1,0 +1,5 @@
+(library
+ (name ollama)
+ (public_name ollama)
+ (libraries lwt cohttp cohttp-lwt-unix yojson)
+)
